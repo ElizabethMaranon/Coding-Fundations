@@ -1,0 +1,48 @@
+/* estilo para todos los div
+div {color: red;} */
+
+.contenedor-telefono-horario {
+    color: royalblue;}
+
+/* id class  unico uso por pagina */
+#contenedor-direccion {
+    color: red;} 
+
+/* eliminar margen exterior */
+body {
+    margin: 0px;
+} 
+/* flex ordena en columnas verticales */
+.contenedor-navegadores {
+    height: 190px;
+    background-color: #11122b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+.columna-izquierda {
+    display: flex;
+    align-items: center;
+}
+.columna-derecha {
+    display: flex;
+    align-items: center;
+}
+/* margenes a los iconos */
+.icon {
+    margin-right: 15px;
+}
+/* cambio tamaño icono de class i */
+.icon i {
+    font-size: 2em;
+}
+/* grid ordenar columnas horizontales, fr cantidad columnas */
+.columna-izquierda > .contenedor-telefono-horario {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.columna-central > .contenedor-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

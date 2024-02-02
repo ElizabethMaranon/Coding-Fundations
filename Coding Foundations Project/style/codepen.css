@@ -1,0 +1,25 @@
+.boton-codepen {
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    background-color: #353840;
+    display: flex;
+    justify-content: center;
+}
+.boton-codepen> .botones-inf {
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid darkgray;
+    border-color: darkgray;
+    background-color: #3f454b ;
+}
+.boton-codepen> .botones-inf> .btn {
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+}
